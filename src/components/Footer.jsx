@@ -61,13 +61,13 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          <div className="w-full md:w-1/2 flex justify-between md:gap-x-44 mt-6 md:mt-0">
+          <div className="w-full md:w-1/2 flex justify-between md:justify-normal md:gap-x-44 mt-6 md:mt-0">
             <div className="flex flex-col">
               <div className="text-[14px] text-[#77798C] font-[500] uppercase mb-3 md:mb-7">
                 Menu
               </div>
               {Menu.map((menu, i) => (
-                <div key={i} className="text-[#F2F3FC] my-3 md:my-6">
+                <div key={i} className="text-[#F2F3FC] my-3 md:my-3">
                   {menu}
                 </div>
               ))}
@@ -77,7 +77,7 @@ const Footer = () => {
                 Support
               </div>
               {Support.map((support, i) => (
-                <div key={i} className="text-[#F2F3FC] my-3 md:my-6">
+                <div key={i} className="text-[#F2F3FC] my-3 md:my-3">
                   {support}
                 </div>
               ))}
