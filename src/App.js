@@ -10,7 +10,7 @@ import Verticals from "./components/verticals/Verticals";
 
 function App() {
   return (
-    <div className="App max-w-[1600px] mx-auto flex flex-col items-centern justify-center">
+    <div className="App font-serif max-w-[1600px] mx-auto flex flex-col items-centern justify-center">
       <Navbar />
       <Introduction />
       <Mission />
