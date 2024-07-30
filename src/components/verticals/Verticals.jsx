@@ -11,11 +11,7 @@ const Verticals = () => {
             Microfluidics Lab-on-Chip
           </h2>
           <p className="text-secondary leading-6 sm:leading-7 text-[14px] sm:text-[20px] ">
-            Our advanced lab-on-chip technology, integrated with nanomaterials,
-            enables comprehensive blood picture analysis and serves as
-            biomarkers for early-stage disease detection. This innovative
-            solution provides precision quantitative data, significantly
-            enhancing diagnostic accuracy and improving patient outcomes.
+          Our advanced lab-on-chip technology with nanomaterials provides precise blood analysis for early disease detection, enhancing diagnostic accuracy. We also utilize graphene in water filtration to ensure clean, safe drinking water by effectively removing contaminants. Additionally, our energy storage systems incorporate advanced materials for high efficiency and sustainability, supporting reliable energy solutions.
           </p>
         </div>
         <img src={labIcon} alt="lab image" />
@@ -32,7 +28,7 @@ const Verticals = () => {
               Healthcare
             </h4>
             <p className="text-secondary text-center">
-            Our advanced lab-on-chip technology with nanomaterials provides precise blood analysis for early disease detection, enhancing diagnostic accuracy. We also utilize graphene in water filtration to ensure clean, safe drinking water by effectively removing contaminants. Additionally, our energy storage systems incorporate advanced materials for high efficiency and sustainability, supporting reliable energy solutions.
+            
             </p>
           </div>
         </div>
