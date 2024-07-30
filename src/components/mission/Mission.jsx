@@ -4,17 +4,21 @@ import SustainableSolutionsIcon from "../../assets/SustainableSolutions.svg";
 
 const Mission = () => {
   return (
-    <section className="py-10 md:px-10
-    ">
+    <section
+      className="py-10 md:px-10
+    "
+    >
       <div className=" flex justify-center items-center flex-col">
         <div className="max-w-[580px] text-center">
           <h3 className="text-4xl font-semibold text-primary tracking-tight">
             Mission & Vision
           </h3>
-          <p className="text-secondary leading-6 mt-4 px-5">
-            To lead globally in developing sustainable, advanced materials and
-            technologies that revolutionize industries and enhance the quality
-            of life.
+          <p className="text-secondary leading-6 sm:leading-7 text-[14px] sm:text-[20px]  mt-4 px-5">
+            To harness advanced 2D, 3D, and biomaterials, delivering innovative,
+            eco-friendly solutions that align with circular economy principles.{" "}
+            <br />
+            To be at the forefront of material innovation, driving sustainable
+            advancements in essential technologies.
           </p>
         </div>
       </div>
@@ -40,7 +44,7 @@ const Mission = () => {
         >
           <img src={ExcellenceIcon} alt="" className="w-16" />
           <h4 className="text-2xl font-semibold text-primary">
-            Excellence in  <br /> Science
+            Excellence in <br /> Science
           </h4>
           <p className="text-secondary">
             {" "}

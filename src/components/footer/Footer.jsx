@@ -17,22 +17,22 @@ const Footer = () => {
         <div>
           <ul className="flex flex-col gap-5 text-center md:mt-0 mb-2">
             <li>
-              <a href="#home" className="hover:text-[#558E6E] transition-colors duration-300">
+              <a href="#home" className="transition-colors duration-300">
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-[#558E6E] transition-colors duration-300">
+              <a href="#about" className="transition-colors duration-300">
                 About
               </a>
             </li>
             <li>
-              <a href="#verticals" className="hover:text-[#558E6E] transition-colors duration-300">
+              <a href="#verticals" className="transition-colors duration-300">
                 Verticals
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-[#558E6E] transition-colors duration-300">
+              <a href="#contact" className="transition-colors duration-300">
                 Contact
               </a>
             </li>

@@ -8,18 +8,14 @@ const CleanEnergy = () => {
         <img
           src={CleanEnergyImage}
           alt="about image"
-          className="max-w-[300px] sm:w-full"
+          className="max-w-[300px] sm:max-w-full"
         />
         <div className="lg:-w-[600px] flex flex-col gap-5">
           <h2 className="text-4xl font-semibold text-primary">
             Clean Energy Storage
           </h2>
-          <p className="text-secondary">
-            Our focus is on innovative solutions in clean energy storage,
-            leveraging advanced materials and sustainable approaches to enhance
-            efficiency and sustainability. We aim to lead in the development and
-            commercialization of cutting-edge technologies that align with
-            global environmental goals., reomove all the hybrid part
+          <p className="text-secondary max-w-[600px] leading-6 sm:leading-7 text-[14px] sm:text-[20px] ">
+          Our focus is on innovative solutions in clean energy storage, leveraging advanced materials and sustainable approaches to enhance efficiency and sustainability. We aim to lead in the development and commercialization of cutting-edge technologies that align with global environmental goals.
           </p>
         </div>
       </div>

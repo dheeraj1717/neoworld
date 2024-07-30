@@ -12,19 +12,22 @@ const AboutUs = () => {
               Neo World Advanced <br /> Materials
             </span>
           </h2>
-          <p className="text-secondary leading-6 text-[14px] sm:text-[16px]">
+          <p className="text-secondary leading-6 sm:leading-7 text-[14px] sm:text-[20px] ">
             We are a pioneering startup incubating at the state-of-the-art lab
             facilities of IIT Guwahati, committed to advancing the frontiers of
-            material science and technology. Our expertise encompasses the
-            innovative utilization of 2D, 3D, and biomaterials to address
-            complex industrial and scientific challenges.
+            material science and technology. Our strides forward stem from the
+            innovative application of 2D, 3D, and biomaterials to navigate and
+            resolve complex industrial and scientific problems. By leveraging
+            cutting-edge research and development, we aim to create sustainable
+            and impactful solutions across various sectors, including water
+            filtration, healthcare, and energy storage.
           </p>
         </div>
         <div>
           <img
             src={aboutImage}
             alt="About Image"
-            className="max-w-[300px] sm:w-full"
+            className="max-w-[300px] sm:max-w-full "
           />
         </div>
       </div>

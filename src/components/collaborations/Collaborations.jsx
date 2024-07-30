@@ -9,7 +9,7 @@ const Collaborations = () => {
         <h1 className="text-4xl font-semibold text-primary">
           Collaborations & Partners
         </h1>
-        <p className="text-secondary max-w-[800px] text-center">
+        <p className="text-secondary max-w-[800px] text-center leading-6 sm:leading-7 text-[14px] sm:text-[20px] ">
           We are proud to collaborate with leading organizations in various
           sectors to advance material science and technology. Our partnerships
           with the Graphene Council, venture capital firms, academia, and

@@ -10,7 +10,7 @@ const Verticals = () => {
           <h2 className="text-4xl font-semibold text-green">
             Microfluidics Lab-on-Chip
           </h2>
-          <p className="text-secondary">
+          <p className="text-secondary leading-6 sm:leading-7 text-[14px] sm:text-[20px] ">
             Our advanced lab-on-chip technology, integrated with nanomaterials,
             enables comprehensive blood picture analysis and serves as
             biomarkers for early-stage disease detection. This innovative
@@ -32,13 +32,11 @@ const Verticals = () => {
               Healthcare
             </h4>
             <p className="text-secondary text-center">
-              Our advanced lab-on-chip technology with nanomaterials provides
-              precise blood analysis for early disease detection, enhancing
-              diagnostic accuracy
+            Our advanced lab-on-chip technology with nanomaterials provides precise blood analysis for early disease detection, enhancing diagnostic accuracy. We also utilize graphene in water filtration to ensure clean, safe drinking water by effectively removing contaminants. Additionally, our energy storage systems incorporate advanced materials for high efficiency and sustainability, supporting reliable energy solutions.
             </p>
           </div>
         </div>
-        <div
+        {/* <div
           className="w-[80vw] lg:w-[400px] xl:w-[540px]  flex flex-col px-10 py-3"
           style={{ boxShadow: "0px 2px 4px 0px rgba(171, 190, 209, 0.5)" }}
         >
@@ -53,7 +51,7 @@ const Verticals = () => {
               drinking water by effectively removing contaminants. 
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
