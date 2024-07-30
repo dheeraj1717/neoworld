@@ -28,7 +28,7 @@ const Verticals = () => {
               Healthcare
             </h4>
             <p className="text-secondary text-center">
-            
+            Our advanced lab-on-chip technology with nanomaterials provides precise blood analysis for early disease detection, enhancing diagnostic accuracy
             </p>
           </div>
         </div>
