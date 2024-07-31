@@ -33,13 +33,13 @@ const Navbar = () => {
               <img
                 src={Logo}
                 alt="logo"
-                className="md:block w-[170px] sm:w-[200px]"
+                className="md:block w-[180px] sm:w-[200px]"
                 onContextMenu={(e) => e.preventDefault()}
                 draggable="false"
               />
             </div>
             <ul
-              className={`font-medium text-primary flex flex-col lg:flex-row lg:items-center gap-y-1 lg:space-x-8 py-8 lg:p-0 lg:bg-transparent absolute lg:static left-0 top-16 w-full lg:w-auto bg-[#e1ece1] items-center ${
+              className={`font-medium text-primary flex flex-col lg:flex-row lg:items-center gap-y-1 lg:space-x-8 py-8 lg:p-0 lg:bg-transparent absolute lg:static left-0 top-20 w-full lg:w-auto bg-[#e1ece1] items-center ${
                 isOpen ? "block" : "hidden lg:flex"
               }`}
             >
