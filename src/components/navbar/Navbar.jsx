@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Logo from "../../assets/main.svg";
+import Logo from "../../assets/NEO SVG.svg";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
@@ -33,7 +33,7 @@ const Navbar = () => {
               <img
                 src={Logo}
                 alt="logo"
-                className="md:block w-[250px] -ml-5"
+                className="md:block w-[170px] sm:w-[200px]"
                 onContextMenu={(e) => e.preventDefault()}
                 draggable="false"
               />
