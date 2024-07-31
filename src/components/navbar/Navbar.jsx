@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Logo from "../../assets/main@2x.png";
+import Logo from "../../assets/main.svg";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
@@ -30,7 +30,13 @@ const Navbar = () => {
         <nav className="w-full md:h-20 h-16 flex items-center justify-between text-primary text-[16px]">
           <div className="flex items-center justify-between w-full">
             <div className="flex items-center">
-              <img src={Logo} alt="logo" className="md:block w-[200px]" />
+              <img
+                src={Logo}
+                alt="logo"
+                className="md:block w-[220px] -ml-5"
+                onContextMenu={(e) => e.preventDefault()}
+                draggable="false"
+              />
             </div>
             <ul
               className={`font-medium text-primary flex flex-col lg:flex-row lg:items-center gap-y-1 lg:space-x-8 p-4 lg:p-0 lg:bg-transparent absolute lg:static left-0 top-16 w-full lg:w-auto bg-[#e1ece1] items-center ${
