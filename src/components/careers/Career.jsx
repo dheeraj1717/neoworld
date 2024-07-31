@@ -70,7 +70,7 @@ const Career = () => {
           {careers.map((career, index) => (
             <motion.div
               key={index}
-              className="bg-white shadow-md rounded-lg p-6 m-4 text-center w-[350px] h-[160px]"
+              className="bg-white shadow-md rounded-lg p-6 m-4 text-center w-[340px] h-[160px]"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}

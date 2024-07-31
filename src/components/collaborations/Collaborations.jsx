@@ -10,6 +10,7 @@ const Collaborations = () => {
     { src: vcfirmsLogo, name: "VC Firm", width: "w-[250px]" },
     { src: GrapheneCounsilLogo, name: "Graphene Council", width: "w-[250px]" },
   ];
+
   const textVariants = {
     hidden: { opacity: 0, y: 100 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
@@ -61,11 +62,13 @@ const Collaborations = () => {
             variants={cardVariants}
             className="w-[300px] flex flex-col justify-center items-center gap-3"
           >
-            <img
-              src={item.src}
-              alt={`${item.name} logo`}
-              className={item.width}
-            />
+            <div className="h-[150px] flex justify-center items-center">
+              <img
+                src={item.src}
+                alt={`${item.name} logo`}
+                className={item.width}
+              />
+            </div>
             <h4 className="text-xl font-medium text-primary">{item.name}</h4>
           </motion.div>
         ))}
