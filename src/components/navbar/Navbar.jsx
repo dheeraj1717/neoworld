@@ -27,13 +27,13 @@ const Navbar = () => {
   return (
     <div className="top-0 left-0 w-full z-10 bg-[#F5F7FA] text-primary">
       <div className="max-w-screen-2xl mx-auto px-4 lg:px-20">
-        <nav className="w-full md:h-20 h-16 flex items-center justify-between text-primary text-[16px]">
+        <nav className="w-full h-20 flex items-center justify-between text-primary text-[16px]">
           <div className="flex items-center justify-between w-full">
             <div className="flex items-center">
               <img
                 src={Logo}
                 alt="logo"
-                className="md:block w-[220px] -ml-5"
+                className="md:block w-[250px] -ml-5"
                 onContextMenu={(e) => e.preventDefault()}
                 draggable="false"
               />
@@ -66,6 +66,14 @@ const Navbar = () => {
                   className="block py-2 px-3 hover:text-[#558E6E] rounded lg:bg-transparent transition-colors duration-300"
                 >
                   Verticals
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#careers"
+                  className="block py-2 px-3 hover:text-[#558E6E] rounded lg:bg-transparent transition-colors duration-300"
+                >
+                  Careers
                 </a>
               </li>
               <li>

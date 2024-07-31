@@ -1,5 +1,6 @@
 import "./App.css";
 import AboutUs from "./components/about/AboutUs";
+import Career from "./components/careers/Career";
 import CleanEnergy from "./components/cleanEnergy/CleanEnergy";
 import Collaborations from "./components/collaborations/Collaborations";
 import Footer from "./components/footer/Footer";
@@ -18,6 +19,7 @@ function App() {
       <Verticals />
       <CleanEnergy />
       <Collaborations />
+      <Career/>
       <Footer />
     </div>
   );
