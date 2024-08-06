@@ -18,7 +18,7 @@ const CleanEnergy = () => {
       <div className="flex w-full flex-col md:flex-row gap-10 sm:gap-5 text-center md:text-left justify-around items-center h-full px-5 sm:px-10 lg:px-20 py-10">
         <motion.img
           src={CleanEnergyImage}
-          alt="Clean Energy Image"
+          alt="Clean-Energy"
           className="max-w-[300px] sm:max-w-full"
           initial="hidden"
           whileInView="visible"

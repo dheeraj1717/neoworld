@@ -66,7 +66,7 @@ const Mission = () => {
           className="flex flex-col gap-2 w-[300px] text-center rounded-[8px] justify-center items-center p-5"
           style={{ boxShadow: "0px 2px 4px 0px rgba(171, 190, 209, 0.2)" }}
         >
-          <img src={InnovativeIcon} alt="" className="w-16" />
+          <img src={InnovativeIcon} alt="innovation" className="w-16" />
           <h4 className="text-2xl font-semibold text-primary">
             Innovative <br /> Research
           </h4>
@@ -80,7 +80,7 @@ const Mission = () => {
           className="flex flex-col gap-2 w-[300px] text-center rounded-[8px] justify-center items-center p-5"
           style={{ boxShadow: "0px 2px 4px 0px rgba(171, 190, 209, 0.2)" }}
         >
-          <img src={ExcellenceIcon} alt="" className="w-16" />
+          <img src={ExcellenceIcon} alt="excellence" className="w-16" />
           <h4 className="text-2xl font-semibold text-primary">
             Excellence in <br /> Science
           </h4>
@@ -94,7 +94,7 @@ const Mission = () => {
           className="flex flex-col gap-2 w-[300px] text-center rounded-[8px] justify-center items-center p-5"
           style={{ boxShadow: "0px 2px 4px 0px rgba(171, 190, 209, 0.2)" }}
         >
-          <img src={SustainableSolutionsIcon} alt="" className="w-16" />
+          <img src={SustainableSolutionsIcon} alt="sustainablesolutions" className="w-16" />
           <h4 className="text-2xl font-semibold text-primary">
             Sustainable <br /> Solutions
           </h4>

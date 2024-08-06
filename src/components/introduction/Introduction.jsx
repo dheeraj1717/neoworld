@@ -39,7 +39,7 @@ const Introduction = () => {
         >
           <img
             src={introductionImage}
-            alt="Introduction Image"
+            alt="Introduction"
             className="max-w-[300px] sm:max-w-full "
           />
         </motion.div>
