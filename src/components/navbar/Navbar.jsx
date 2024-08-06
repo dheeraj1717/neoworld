@@ -45,7 +45,7 @@ const Navbar = () => {
             >
               <li>
                 <a
-                  href=""
+                  href="#home"
                   className="block py-2 px-3 hover:text-[#558E6E] rounded tracking-wider lg:bg-transparent transition-colors duration-300"
                   aria-current="page"
                 >
