@@ -39,7 +39,7 @@ const Navbar = () => {
               />
             </div>
             <ul
-              className={`font-medium text-primary flex flex-col lg:flex-row lg:items-center gap-y-1 lg:space-x-8 py-8 lg:p-0 lg:bg-transparent absolute lg:static left-0 top-20 w-full lg:w-auto bg-[#e1ece1] items-center ${
+              className={`font-medium text-primary flex flex-col lg:flex-row lg:items-center gap-y-1 lg:space-x-8 py-6 lg:p-0 lg:bg-transparent absolute lg:static left-0 top-20 w-full lg:w-auto bg-[#e1ece1] items-center ${
                 isOpen ? "block" : "hidden lg:flex"
               }`}
             >
