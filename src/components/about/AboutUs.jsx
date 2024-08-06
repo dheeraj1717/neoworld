@@ -47,7 +47,7 @@ const AboutUs = () => {
         >
           <img
             src={aboutImage}
-            alt="About Image"
+            alt="About"
             className="max-w-[300px] sm:max-w-full"
           />
         </motion.div>

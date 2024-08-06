@@ -1,7 +1,4 @@
 import {
-  Contact,
-  Contact2,
-  Contact2Icon,
   LinkedinIcon,
   MailIcon,
 } from "lucide-react";
