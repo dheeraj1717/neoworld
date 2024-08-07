@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/neoworld/static/css/main.c2cf55b2.css",
+    "main.js": "/neoworld/static/js/main.d6aa7547.js",
+    "static/media/CleanEnergy.svg": "/neoworld/static/media/CleanEnergy.48d449594ea5717c22cf10ffbca210fd.svg",
+    "static/media/IIT_Guwahati_Logo.svg_.png": "/neoworld/static/media/IIT_Guwahati_Logo.svg_.c650e7cafa7adf1a389b.png",
+    "static/media/About.svg": "/neoworld/static/media/About.e6510948ac71c6b7750fb34a801f9b5c.svg",
+    "static/media/OBJECTS.svg": "/neoworld/static/media/OBJECTS.624cb174ad2cd7302130c70cf7f8b154.svg",
+    "static/media/Lab.svg": "/neoworld/static/media/Lab.b485cdee6c8095366a7d780a21c624ce.svg",
+    "static/media/[removal.ai]_20db732b-947d-4718-92a6-9dd175678905-venturecapial.png": "/neoworld/static/media/[removal.ai]_20db732b-947d-4718-92a6-9dd175678905-venturecapial.5e10bad78be5f7ab2d16.png",
+    "static/media/graphenecouncilLogo.png": "/neoworld/static/media/graphenecouncilLogo.8e50141b1605908b9e0b.png",
+    "static/media/SustainableSolutions.svg": "/neoworld/static/media/SustainableSolutions.1e3330d8dd2e43b4b7838d77db638adb.svg",
+    "static/media/NEO SVG.svg": "/neoworld/static/media/NEO SVG.ca51a22469867266e29e4f1ab6380497.svg",
+    "static/media/Excellence.svg": "/neoworld/static/media/Excellence.86ee69a10b87247f612bb96c96572403.svg",
+    "static/media/InnovativeResearch.svg": "/neoworld/static/media/InnovativeResearch.fcb2466628571f7331883823b4874f86.svg",
+    "index.html": "/neoworld/index.html",
+    "main.c2cf55b2.css.map": "/neoworld/static/css/main.c2cf55b2.css.map",
+    "main.d6aa7547.js.map": "/neoworld/static/js/main.d6aa7547.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cf55b2.css",
+    "static/js/main.d6aa7547.js"
+  ]
+}
