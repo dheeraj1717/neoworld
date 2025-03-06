@@ -1,12 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import iitGuwahati from "../../assets/IIT_Guwahati_Logo.svg_.png";
 import vcfirmsLogo from "../../assets/[removal.ai]_20db732b-947d-4718-92a6-9dd175678905-venturecapial.png";
 import GrapheneCounsilLogo from "../../assets/graphenecouncilLogo.png";
 
 const Collaborations = () => {
   const collaborators = [
-    { src: iitGuwahati, name: "IIT Guwahati", width: "w-36" },
     { src: vcfirmsLogo, name: "VC Firm", width: "w-[250px]" },
     { src: GrapheneCounsilLogo, name: "Graphene Council", width: "w-[250px]" },
   ];
@@ -44,11 +42,11 @@ const Collaborations = () => {
           variants={textVariants}
           className="text-secondary max-w-[800px] text-center leading-6 sm:leading-7 text-[14px] sm:text-[20px]"
         >
-          We are proud to collaborate with leading organizations in various
-          sectors to advance material science and technology. Our partnerships
-          with the Graphene Council, venture capital firms, academia, and
-          manufacturers drive our mission forward and enable us to deliver
-          cutting-edge solutions.
+          We collaborate with leading organizations in material science,
+          technology, and sustainability. Our partnerships with research
+          institutions, venture capital firms, and manufacturers drive our
+          mission forward, enabling us to develop and commercialize advanced
+          material solutions.
         </motion.p>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center py-10 gap-16 md:gap-10">
