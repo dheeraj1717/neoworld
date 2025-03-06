@@ -29,14 +29,7 @@ const AboutUs = () => {
             </span>
           </h2>
           <p className="text-secondary leading-6 sm:leading-7 text-[14px] sm:text-[20px]">
-            We are a pioneering startup incubating at the state-of-the-art lab
-            facilities of IIT Guwahati, committed to advancing the frontiers of
-            material science and technology. Our strides forward stem from the
-            innovative application of 2D, 3D, and biomaterials to navigate and
-            resolve complex industrial and scientific problems. By leveraging
-            cutting-edge research and development, we aim to create sustainable
-            and impactful solutions across various sectors, including water
-            filtration, healthcare, and energy storage.
+          Neo World Advanced Materials is a pioneering startup committed to advancing the frontiers of material science and technology. Our work focuses on leveraging the potential of 2D, 3D, and biomaterials to develop innovative solutions for industrial and scientific challenges. With a strong emphasis on research and development, we create sustainable and impactful technologies across various sectors, including water filtration, healthcare, and energy storage.
           </p>
         </motion.div>
         <motion.div
